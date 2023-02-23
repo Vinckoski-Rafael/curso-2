@@ -1,0 +1,132 @@
+
+/* Importação das fontes do Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root{
+    --azul__ciano-color:#22d4fd;
+    --preto-color: #000000;
+    --text-color:#f6f6f6;
+    --preto__hover-color: #272727;
+    --font-1: 'Montserrat', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #f6f6f6;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__links{
+    font-family: var(--font-1);
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--azul__ciano-color);
+    text-decoration: none;
+
+}
+
+.cabecalho__menu__links:hover{
+    text-decoration: underline var(--azul__ciano-color);
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo{
+
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.apresentacao__conteudo__links__subtitulo{
+
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    
+}
+
+.apresentacao__conteudo__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 21.5px 0 ;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--text-color);
+    border: 2px solid var(--azul__ciano-color);
+    background-color: var(--preto-color);
+    
+}
+
+.apresentacao__conteudo__links__link:hover{
+    background-color: var(--preto__hover-color);
+    
+}
+
+.rodape{
+    color: var(--preto-color);
+    background-color: var(--azul__ciano-color);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font-1);
+    
+}
+
+strong{
+    color: var(--azul__ciano-color);
+    
+}
+
+/*CSS CURRICULO*/
+.apresentacao__conteudo__paragrafo a{
+    text-decoration: none;
+    color: #22D4FD;
+}
