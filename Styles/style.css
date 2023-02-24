@@ -148,6 +148,7 @@ strong{
     .cabecalho__menu{
         justify-content: center;
         width: auto;
+        gap: 2rem;
     }
 
     .apresentacao{
@@ -157,6 +158,10 @@ strong{
     }
 
     .apresentacao__conteudo{
+        width: auto;
+    }
+
+    .rodape{
         width: auto;
     }
 }
