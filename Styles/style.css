@@ -52,6 +52,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 5.12rem;
+    align-items: flex-start;
 }
 
 .apresentacao__conteudo{
@@ -135,7 +136,7 @@ strong{
 /*CSS CURRICULO*/
 .apresentacao__conteudo__paragrafo a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 /*Media Querys*/
@@ -150,7 +151,7 @@ strong{
     .cabecalho__menu{
         justify-content: center;
         width: auto;
-        gap: 2rem;
+        gap: 1rem;
     }
 
     .apresentacao{
@@ -165,5 +166,9 @@ strong{
 
     .rodape{
         width: auto;
+    }
+    .apresentacao__imagem{
+        width: 70%;
+        
     }
 }
