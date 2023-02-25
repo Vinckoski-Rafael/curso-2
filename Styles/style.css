@@ -158,6 +158,7 @@ strong{
         display: flex;
         flex-direction: column-reverse;
         padding: 5%;
+        align-items: center;
     }
 
     .apresentacao__conteudo{
